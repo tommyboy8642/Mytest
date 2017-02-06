@@ -5,8 +5,9 @@ int a, b, c;
 
 printf("hello world, updated version\n");
 printf("----------------------------\n");
-scanf("%d%d,&a,&b);
 
+a=5;
+b=6;
 c = a + b;
 
 printf("Sum of entered numbers = %d\n",c);
